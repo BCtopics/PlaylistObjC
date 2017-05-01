@@ -45,7 +45,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Playlistcell" textLabel="Irv-hF-4R2" detailTextLabel="Yzi-b1-dko" style="IBUITableViewCellStyleValue1" id="f7b-G0-9Cm">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlaylistCell" textLabel="Irv-hF-4R2" detailTextLabel="Yzi-b1-dko" style="IBUITableViewCellStyleValue1" id="f7b-G0-9Cm">
                                         <rect key="frame" x="0.0" y="99.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f7b-G0-9Cm" id="Dae-5e-jE6">
@@ -69,10 +69,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="kYd-Un-8ci" kind="show" id="Wwy-TZ-TzM"/>
+                                            <segue destination="kYd-Un-8ci" kind="show" identifier="toDetailView" id="Wwy-TZ-TzM"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="rR3-03-BzP" id="vqP-us-PbJ"/>
+                                    <outlet property="delegate" destination="rR3-03-BzP" id="egQ-q3-8hS"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,6 +176,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kYd-Un-8ci" id="Kvq-mr-gxW"/>
+                                    <outlet property="delegate" destination="kYd-Un-8ci" id="NGw-KI-UVV"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

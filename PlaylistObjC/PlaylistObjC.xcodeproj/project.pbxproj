@@ -16,6 +16,7 @@
 		6BA89F951EB7993A00EF5404 /* DMNPlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA89F941EB7993A00EF5404 /* DMNPlaylistDetailViewController.m */; };
 		6BA89F9B1EB7A3EA00EF5404 /* DMNPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA89F9A1EB7A3EA00EF5404 /* DMNPlaylist.m */; };
 		6BA89F9E1EB7A69400EF5404 /* DMNSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA89F9D1EB7A69400EF5404 /* DMNSong.m */; };
+		6BA89FA11EB7AE8800EF5404 /* DMNPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA89FA01EB7AE8800EF5404 /* DMNPlaylistController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		6BA89F9A1EB7A3EA00EF5404 /* DMNPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylist.m; sourceTree = "<group>"; };
 		6BA89F9C1EB7A69400EF5404 /* DMNSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSong.h; sourceTree = "<group>"; };
 		6BA89F9D1EB7A69400EF5404 /* DMNSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSong.m; sourceTree = "<group>"; };
+		6BA89F9F1EB7AE8800EF5404 /* DMNPlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylistController.h; sourceTree = "<group>"; };
+		6BA89FA01EB7AE8800EF5404 /* DMNPlaylistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylistController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		6BA89F981EB7A3C900EF5404 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6BA89F9F1EB7AE8800EF5404 /* DMNPlaylistController.h */,
+				6BA89FA01EB7AE8800EF5404 /* DMNPlaylistController.m */,
 			);
 			name = ModelControllers;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				6BA89F951EB7993A00EF5404 /* DMNPlaylistDetailViewController.m in Sources */,
 				6BA89F791EB7944C00EF5404 /* main.m in Sources */,
 				6BA89F921EB7992300EF5404 /* DMNListViewController.m in Sources */,
+				6BA89FA11EB7AE8800EF5404 /* DMNPlaylistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
